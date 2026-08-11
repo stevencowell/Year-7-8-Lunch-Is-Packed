@@ -4,18 +4,49 @@
   if (!data) return;
 
   const visuals = {
-    1:[{after:0,src:'design-cycle.svg',alt:'Five-stage design cycle from investigate to evaluate',caption:'Keep returning to the brief as evidence changes your decisions.'}],
-    2:[{after:1,src:'textile-structure.svg',alt:'Fibres combining into yarn and yarns interlacing to form fabric',caption:'Structure helps explain why fabrics stretch, fray, fold and sew differently.'}],
-    3:[{after:1,src:'life-cycle.svg',alt:'Reusable lunch bag life cycle from raw materials through use, repair and end of life',caption:'A reusable solution creates benefits only when it is kept, cared for and used.'}],
-    4:[{after:0,src:'safety-zone.svg',alt:'Safe sewing workspace with a clear needle zone and stored sharp tools',caption:'Clear routines keep sharp, moving and heat hazards visible and controlled.'}],
-    5:[{after:1,src:'design-options.svg',alt:'Four genuinely different lunch bag concepts',caption:'Change meaningful features—not only colour—when developing alternatives.'}],
-    6:[{after:1,src:'sewing-system.svg',alt:'Sewing machine system showing needle, presser foot, feed dogs and bobbin',caption:'Stitches form because several parts hold, move and interlock thread around the fabric.'}],
-    7:[{after:2,src:'sewing-system.svg',alt:'Sewing machine parts involved in controlled stitch formation',caption:'Read stitch quality as evidence about setup, machine parts and fabric handling.'}],
-    8:[{after:1,src:'applique-test.svg',alt:'Applique sample and refinement process',caption:'A small sample protects final project pieces and gives evidence for improvement.'}],
-    9:[{after:0,src:'construction-flow.svg',alt:'Construction flow from checking instructions through making, testing and cleanup',caption:'Plan the complete practical, including quality checks, evidence and cleanup.'}],
-    10:[{after:1,src:'evaluation-loop.svg',alt:'Criterion, test, evidence, judgement and improvement evaluation loop',caption:'A useful evaluation connects each judgement to evidence and a specific next step.'}]
+    1:[
+      {after:0,src:'design-cycle.svg',alt:'Five-stage design cycle from investigate to evaluate',caption:'Keep returning to the brief as evidence changes your decisions.'},
+      {after:1,src:'module-01-design-planning-photo.png',alt:'Colour photograph of lunch-bag concepts, fabric swatches and textiles tools on a classroom design table',caption:'Early design work connects different concepts to real materials, tools and user needs.'}
+    ],
+    2:[
+      {after:0,src:'module-02-textile-samples-photo.png',alt:'Colour photograph comparing fibres, yarns, woven, knitted and non-woven textile samples',caption:'Inspecting real structures helps students move beyond choosing fabric by colour alone.'},
+      {after:1,src:'textile-structure.svg',alt:'Fibres combining into yarn and yarns interlacing to form fabric',caption:'Structure helps explain why fabrics stretch, fray, fold and sew differently.'}
+    ],
+    3:[
+      {after:0,src:'module-03-lunch-waste-audit-photo.png',alt:'Colour photograph comparing clean single-use lunch packaging with reusable containers and a textile lunch bag',caption:'A waste audit starts with real items and frequency, then identifies realistic opportunities to reduce single-use packaging.'},
+      {after:1,src:'life-cycle.svg',alt:'Reusable lunch bag life cycle from raw materials through use, repair and end of life',caption:'A reusable solution creates benefits only when it is kept, cared for and used.'}
+    ],
+    4:[
+      {after:0,src:'safety-zone.svg',alt:'Safe sewing workspace with a clear needle zone and stored sharp tools',caption:'Clear routines keep sharp, moving and heat hazards visible and controlled.'},
+      {after:1,src:'module-04-safe-workstation-photo.png',alt:'Colour photograph of an organised school sewing workstation with a clear machine area and separate heat-safe iron zone',caption:'Good setup makes hazard controls visible before practical work begins.'}
+    ],
+    5:[
+      {after:0,src:'module-05-design-options-photo.png',alt:'Colour photograph of four genuinely different reusable lunch-bag concept sketches',caption:'Genuine alternatives change form, closure, carrying method and surface design, not only colour.'},
+      {after:1,src:'design-options.svg',alt:'Four genuinely different lunch bag concepts',caption:'Compare alternatives against the same criteria before selecting a direction.'}
+    ],
+    6:[
+      {after:0,src:'module-06-sewing-system-photo.png',alt:'Close colour photograph of the needle, presser foot, fabric and seam guide on a classroom sewing machine',caption:'The needle area is one part of a system that positions thread, holds fabric and supports controlled feeding.'},
+      {after:1,src:'sewing-system.svg',alt:'Sewing machine system showing needle, presser foot, feed dogs and bobbin',caption:'Stitches form because several parts hold, move and interlock thread around the fabric.'}
+    ],
+    7:[
+      {after:1,src:'module-07-stitch-quality-photo.png',alt:'Colour photograph comparing balanced, looping, puckered and skipped stitch samples',caption:'Visible stitch symptoms are evidence: stop, compare both fabric sides and check one likely cause at a time.'},
+      {after:2,src:'sewing-system.svg',alt:'Sewing machine parts involved in controlled stitch formation',caption:'Use the system diagram to connect a stitch symptom to setup, machine parts or fabric handling.'}
+    ],
+    8:[
+      {after:0,src:'module-08-applique-samples-photo.png',alt:'Colour photograph of three applique samples exploring colour, placement and edge stitching',caption:'Side-by-side samples make refinement decisions visible before final project material is used.'},
+      {after:1,src:'applique-test.svg',alt:'Applique sample and refinement process',caption:'A small sample protects final project pieces and gives evidence for improvement.'}
+    ],
+    9:[
+      {after:0,src:'construction-flow.svg',alt:'Construction flow from checking instructions through making, testing and cleanup',caption:'Plan the complete practical, including quality checks, evidence and cleanup.'},
+      {after:2,src:'module-09-production-evidence-photo.png',alt:'Colour photograph of partly assembled lunch-bag panels, a workplan and a tablet recording construction evidence',caption:'Photograph real checkpoints and explain the decision, problem or correction each image proves.'}
+    ],
+    10:[
+      {after:0,src:'module-10-testing-evaluation-photo.png',alt:'Colour photograph of a finished reusable lunch bag beside containers, a tape measure and an evaluation sheet',caption:'Capacity, closure, carrying and finish should be tested with real evidence, not judged from appearance alone.'},
+      {after:1,src:'evaluation-loop.svg',alt:'Criterion, test, evidence, judgement and improvement evaluation loop',caption:'A useful evaluation connects each judgement to evidence and a specific next step.'}
+    ]
   };
-  const activityLabels = ['Need statement and criteria studio','Textile product investigator','Lunch waste and life-cycle audit','Safety and equipment record','Research and concept portfolio','Sewing machine parts guide','Machine setup and stitch sample log','Appliqué sample and colour plan','Construction workplan and evidence log','Testing and evaluation builder'];
+  const activityLabels = ['Design brief evidence lab','Textile sample investigation','Lunch-waste action investigation','Safety scenario studio','Four-concept design studio','Sewing machine systems lab','Stitch detective lab','Designer and applique sample studio','Production control room','Product test and evaluation lab'];
+  const moduleVideoSection = {1:1,2:2,3:1,4:1,5:2,6:1,7:1,8:2,10:2};
   const presentationFiles = [
     'Lunch-Is-Packed-Module-01-the-design-challenge.pptx',
     'Lunch-Is-Packed-Module-02-textiles-around-us.pptx',
@@ -47,8 +78,8 @@
 
   document.querySelector('[data-theory]').innerHTML = presentationHtml() + data.sections.map((section, i) => {
     const figures = (visuals[moduleId] || []).filter(v => v.after === i).map(figureHtml).join('');
-    const video = COURSE_VIDEOS[`${moduleId}.${i + 1}`];
-    return `<section class="theory-block" id="section-${i + 1}"><h2>${section.title}</h2>${section.html}</section>${figures}${videoHtml(video, `${moduleId}-${i + 1}`)}<details class="section-learning" id="check-${section.learningId}"><summary><span>Learning activity ${moduleId}.${i + 1}</span><strong>10 questions + written response</strong></summary><div class="section-learning-body"><p>Answer all ten questions. Feedback returns you to this precise theory section when you need another look.</p><div data-section-check="${section.learningId}">${section.questions.map((item, qi) => questionHtml(item, qi, section)).join('')}</div>${evidenceHtml(section, i)}</div></details>`;
+    const video = moduleVideoSection[moduleId] === i + 1 ? COURSE_VIDEOS[`${moduleId}.${i + 1}`] : null;
+    return `<section class="theory-block" id="section-${i + 1}"><h2>${section.title}</h2>${section.html}</section>${figures}${video ? videoHtml(video, `${moduleId}-${i + 1}`) : ''}<details class="section-learning" id="check-${section.learningId}"><summary><span>Learning activity ${moduleId}.${i + 1}</span><strong>10 questions + written response</strong></summary><div class="section-learning-body"><p>Answer all ten questions. Feedback returns you to this precise theory section when you need another look.</p><div data-section-check="${section.learningId}">${section.questions.map((item, qi) => questionHtml(item, qi, section)).join('')}</div>${evidenceHtml(section, i)}</div></details>`;
   }).join('');
 
   const oldCheck = document.getElementById('knowledge-check');

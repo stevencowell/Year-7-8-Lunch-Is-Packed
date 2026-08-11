@@ -1,13 +1,14 @@
 {
-  "buildId": "lunch-is-packed-youtube-2026-08-11-v1",
+  "buildId": "lunch-is-packed-youtube-2026-08-11-v2",
   "checked": "2026-08-11",
-  "mapping": "video-data.js supplies one validated teaching video to each of 30 theory sections; a module may deliberately reuse one video with a different watch-for prompt.",
+  "mapping": "Nine modules contain one purposeful click-to-play video at the strongest learning point. Module 9 deliberately uses authentic visual and production evidence instead of an unrelated video. No YouTube iframe loads before a student selects Play video.",
   "videos": [
     {"videoId":"cmBf1fBRXms","title":"Convergent Thinking Versus Divergent Thinking","use":"design development, selection and evaluation"},
     {"videoId":"CGRsBDMSVGI","title":"Fibre to Yarn & Yarns to Fabric","use":"textile structure"},
     {"videoId":"GTs3w9zLwT8","title":"Australia's Plastic Waste Problem","use":"lunch waste and personal action"},
     {"videoId":"paMnZk_7tF8","title":"Sewing Machine Safety for Beginners","use":"safe workspace routines"},
     {"videoId":"KUaanhs5quU","title":"How to Thread a Brother Sewing Machine","use":"thread path and careful setup"},
-    {"videoId":"5p617lj0pIs","title":"How to Thread Mechanical and Automatic Machines","use":"machine-specific setup comparison"}
+    {"videoId":"5p617lj0pIs","title":"How to Thread Mechanical and Automatic Machines","use":"machine-specific setup comparison"},
+    {"videoId":"KU35RLcKYJQ","title":"Machine Applique Lesson #1","use":"applique preparation, edge control and sampling"}
   ]
 }

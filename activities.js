@@ -32,6 +32,14 @@
   }
   const target = location.hash && document.querySelector(location.hash);
   if (target?.tagName === 'DETAILS') { target.open = true; setTimeout(() => target.scrollIntoView({block:'start'}), 80); }
+  let printOpenState = [];
+  window.addEventListener('beforeprint', () => {
+    printOpenState = [...document.querySelectorAll('.activity-card')].map(card => card.open);
+    document.querySelectorAll('.activity-card').forEach(card => { card.open = true; });
+  });
+  window.addEventListener('afterprint', () => {
+    document.querySelectorAll('.activity-card').forEach((card, index) => { card.open = printOpenState[index] ?? card.open; });
+  });
   document.querySelector('[data-print-activities]').addEventListener('click', () => window.print());
   update();
 })();

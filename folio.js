@@ -1,6 +1,6 @@
 (() => {
   const container = document.querySelector('[data-folio]');
-  container.innerHTML = COURSE_MODULES.map(module => `<article class="card"><p class="eyebrow">Module ${module.id}</p><h3>${module.title}</h3>${module.prompts.map(prompt => `<div class="evidence-card"><label for="folio-${prompt.id}">${prompt.label}</label><textarea id="folio-${prompt.id}" data-save-key="lunchpacked:${prompt.id}" placeholder="No response saved yet."></textarea></div>`).join('')}<a href="modules/module-${String(module.id).padStart(2,'0')}.html#make-evidence">Return to Module ${module.id} →</a></article>`).join('');
+  container.innerHTML = COURSE_MODULES.map(module => `<article class="card"><p class="eyebrow">Module ${module.id}</p><h3>${module.title}</h3>${module.prompts.map(prompt => `<div class="evidence-card"><label for="folio-${prompt.id}">${prompt.label}</label><textarea id="folio-${prompt.id}" data-save-key="lunchpacked:${prompt.id}" placeholder="No response saved yet."></textarea></div>`).join('')}<a href="modules/module-${String(module.id).padStart(2,'0')}.html#section-1">Return to Module ${module.id} →</a></article>`).join('');
   const saveAreas = document.querySelectorAll('[data-save-key]');
   saveAreas.forEach(area => {
     area.value = localStorage.getItem(area.dataset.saveKey) || '';
@@ -41,7 +41,7 @@
   });
   document.querySelector('[data-print]').addEventListener('click', () => window.print());
 
-  const activityTitles = ['Need and criteria','Textiles and glossary','Research and waste action','Tools, materials and safety','Design ideas','Machine parts','Setup and stitch samples','Designer and decoration','Construction evidence','Testing and evaluation'];
+  const activityTitles = ['Design brief evidence lab','Textile sample investigation','Lunch-waste action investigation','Safety scenario studio','Four-concept design studio','Sewing machine systems lab','Stitch detective lab','Designer and appliqué sample studio','Production control room','Product test and evaluation lab'];
   const escapeHtml = value => value.replace(/[&<>"']/g, character => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[character]));
   const summary = document.querySelector('[data-activity-summary]');
   summary.innerHTML = activityTitles.map((title, i) => {
@@ -54,5 +54,13 @@
     const evidence = responses.map(item => `<div class="activity-evidence"><strong>${escapeHtml(item.label)}</strong><p>${escapeHtml(item.value).replace(/\n/g,'<br>')}</p></div>`).join('');
     return `<article class="card activity-summary-card"><div class="module-card"><div class="number">${i+1}</div><div><h3>${title}</h3><p>${responses.length ? `${responses.length} response${responses.length===1?'':'s'} saved` : 'Not started on this device'}</p><a href="activities.html#activity-${i+1}">Open activity →</a></div></div>${evidence}</article>`;
   }).join('');
+  const guidedSaved = [...document.querySelectorAll('[data-save-key]')].filter(field => field.value.trim()).length;
+  const activitySaved = Object.keys(localStorage).filter(key => key.startsWith('lunchpacked:activity:a') && (localStorage.getItem(key) || '').trim()).length;
+  const checksCorrect = Object.keys(localStorage).filter(key => key.startsWith('lunchpacked:check:')).filter(key => {
+    try { return JSON.parse(localStorage.getItem(key)).correct === true; } catch { return false; }
+  }).length;
+  document.querySelector('[data-guided-count]').textContent = guidedSaved;
+  document.querySelector('[data-activity-count]').textContent = activitySaved;
+  document.querySelector('[data-check-count]').textContent = checksCorrect;
   document.querySelector('[data-print-activities-summary]').addEventListener('click', () => window.print());
 })();

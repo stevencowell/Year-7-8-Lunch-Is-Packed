@@ -1,0 +1,248 @@
+{
+  "schema_version": "1.0",
+  "artifact_id": "lunch-is-packed-program-site-map",
+  "version": "1.0",
+  "release_state": "Local-only",
+  "destinations": [
+    {
+      "route": "modules/module-01.html",
+      "anchor": "section-1",
+      "audience": "student",
+      "purpose": "theory, visual, knowledge checks and guided response, plus mapped video where present",
+      "module_id": 1,
+      "section_id": "1.1"
+    },
+    {
+      "route": "modules/module-01.html",
+      "anchor": "section-2",
+      "audience": "student",
+      "purpose": "theory, visual, knowledge checks and guided response, plus mapped video where present",
+      "module_id": 1,
+      "section_id": "1.2"
+    },
+    {
+      "route": "modules/module-01.html",
+      "anchor": "section-3",
+      "audience": "student",
+      "purpose": "theory, visual, knowledge checks and guided response, plus mapped video where present",
+      "module_id": 1,
+      "section_id": "1.3"
+    },
+    {
+      "route": "modules/module-02.html",
+      "anchor": "section-1",
+      "audience": "student",
+      "purpose": "theory, visual, knowledge checks and guided response, plus mapped video where present",
+      "module_id": 2,
+      "section_id": "2.1"
+    },
+    {
+      "route": "modules/module-02.html",
+      "anchor": "section-2",
+      "audience": "student",
+      "purpose": "theory, visual, knowledge checks and guided response, plus mapped video where present",
+      "module_id": 2,
+      "section_id": "2.2"
+    },
+    {
+      "route": "modules/module-02.html",
+      "anchor": "section-3",
+      "audience": "student",
+      "purpose": "theory, visual, knowledge checks and guided response, plus mapped video where present",
+      "module_id": 2,
+      "section_id": "2.3"
+    },
+    {
+      "route": "modules/module-03.html",
+      "anchor": "section-1",
+      "audience": "student",
+      "purpose": "theory, visual, knowledge checks and guided response, plus mapped video where present",
+      "module_id": 3,
+      "section_id": "3.1"
+    },
+    {
+      "route": "modules/module-03.html",
+      "anchor": "section-2",
+      "audience": "student",
+      "purpose": "theory, visual, knowledge checks and guided response, plus mapped video where present",
+      "module_id": 3,
+      "section_id": "3.2"
+    },
+    {
+      "route": "modules/module-03.html",
+      "anchor": "section-3",
+      "audience": "student",
+      "purpose": "theory, visual, knowledge checks and guided response, plus mapped video where present",
+      "module_id": 3,
+      "section_id": "3.3"
+    },
+    {
+      "route": "modules/module-04.html",
+      "anchor": "section-1",
+      "audience": "student",
+      "purpose": "theory, visual, knowledge checks and guided response, plus mapped video where present",
+      "module_id": 4,
+      "section_id": "4.1"
+    },
+    {
+      "route": "modules/module-04.html",
+      "anchor": "section-2",
+      "audience": "student",
+      "purpose": "theory, visual, knowledge checks and guided response, plus mapped video where present",
+      "module_id": 4,
+      "section_id": "4.2"
+    },
+    {
+      "route": "modules/module-04.html",
+      "anchor": "section-3",
+      "audience": "student",
+      "purpose": "theory, visual, knowledge checks and guided response, plus mapped video where present",
+      "module_id": 4,
+      "section_id": "4.3"
+    },
+    {
+      "route": "modules/module-05.html",
+      "anchor": "section-1",
+      "audience": "student",
+      "purpose": "theory, visual, knowledge checks and guided response, plus mapped video where present",
+      "module_id": 5,
+      "section_id": "5.1"
+    },
+    {
+      "route": "modules/module-05.html",
+      "anchor": "section-2",
+      "audience": "student",
+      "purpose": "theory, visual, knowledge checks and guided response, plus mapped video where present",
+      "module_id": 5,
+      "section_id": "5.2"
+    },
+    {
+      "route": "modules/module-05.html",
+      "anchor": "section-3",
+      "audience": "student",
+      "purpose": "theory, visual, knowledge checks and guided response, plus mapped video where present",
+      "module_id": 5,
+      "section_id": "5.3"
+    },
+    {
+      "route": "modules/module-06.html",
+      "anchor": "section-1",
+      "audience": "student",
+      "purpose": "theory, visual, knowledge checks and guided response, plus mapped video where present",
+      "module_id": 6,
+      "section_id": "6.1"
+    },
+    {
+      "route": "modules/module-06.html",
+      "anchor": "section-2",
+      "audience": "student",
+      "purpose": "theory, visual, knowledge checks and guided response, plus mapped video where present",
+      "module_id": 6,
+      "section_id": "6.2"
+    },
+    {
+      "route": "modules/module-06.html",
+      "anchor": "section-3",
+      "audience": "student",
+      "purpose": "theory, visual, knowledge checks and guided response, plus mapped video where present",
+      "module_id": 6,
+      "section_id": "6.3"
+    },
+    {
+      "route": "modules/module-07.html",
+      "anchor": "section-1",
+      "audience": "student",
+      "purpose": "theory, visual, knowledge checks and guided response, plus mapped video where present",
+      "module_id": 7,
+      "section_id": "7.1"
+    },
+    {
+      "route": "modules/module-07.html",
+      "anchor": "section-2",
+      "audience": "student",
+      "purpose": "theory, visual, knowledge checks and guided response, plus mapped video where present",
+      "module_id": 7,
+      "section_id": "7.2"
+    },
+    {
+      "route": "modules/module-07.html",
+      "anchor": "section-3",
+      "audience": "student",
+      "purpose": "theory, visual, knowledge checks and guided response, plus mapped video where present",
+      "module_id": 7,
+      "section_id": "7.3"
+    },
+    {
+      "route": "modules/module-08.html",
+      "anchor": "section-1",
+      "audience": "student",
+      "purpose": "theory, visual, knowledge checks and guided response, plus mapped video where present",
+      "module_id": 8,
+      "section_id": "8.1"
+    },
+    {
+      "route": "modules/module-08.html",
+      "anchor": "section-2",
+      "audience": "student",
+      "purpose": "theory, visual, knowledge checks and guided response, plus mapped video where present",
+      "module_id": 8,
+      "section_id": "8.2"
+    },
+    {
+      "route": "modules/module-08.html",
+      "anchor": "section-3",
+      "audience": "student",
+      "purpose": "theory, visual, knowledge checks and guided response, plus mapped video where present",
+      "module_id": 8,
+      "section_id": "8.3"
+    },
+    {
+      "route": "modules/module-09.html",
+      "anchor": "section-1",
+      "audience": "student",
+      "purpose": "theory, visual, knowledge checks and guided response, plus mapped video where present",
+      "module_id": 9,
+      "section_id": "9.1"
+    },
+    {
+      "route": "modules/module-09.html",
+      "anchor": "section-2",
+      "audience": "student",
+      "purpose": "theory, visual, knowledge checks and guided response, plus mapped video where present",
+      "module_id": 9,
+      "section_id": "9.2"
+    },
+    {
+      "route": "modules/module-09.html",
+      "anchor": "section-3",
+      "audience": "student",
+      "purpose": "theory, visual, knowledge checks and guided response, plus mapped video where present",
+      "module_id": 9,
+      "section_id": "9.3"
+    },
+    {
+      "route": "modules/module-10.html",
+      "anchor": "section-1",
+      "audience": "student",
+      "purpose": "theory, visual, knowledge checks and guided response, plus mapped video where present",
+      "module_id": 10,
+      "section_id": "10.1"
+    },
+    {
+      "route": "modules/module-10.html",
+      "anchor": "section-2",
+      "audience": "student",
+      "purpose": "theory, visual, knowledge checks and guided response, plus mapped video where present",
+      "module_id": 10,
+      "section_id": "10.2"
+    },
+    {
+      "route": "modules/module-10.html",
+      "anchor": "section-3",
+      "audience": "student",
+      "purpose": "theory, visual, knowledge checks and guided response, plus mapped video where present",
+      "module_id": 10,
+      "section_id": "10.3"
+    }
+  ]
+}

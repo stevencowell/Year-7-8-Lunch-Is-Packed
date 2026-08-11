@@ -1,0 +1,1887 @@
+{
+  "schema_version": "1.0",
+  "artifact_id": "lunch-is-packed-teacher-program",
+  "version": "1.0",
+  "build_id": "task-29-upgrade-2026-08-11",
+  "course": "Lunch Is Packed",
+  "cohort": "Year 7/8 Technology Mandatory",
+  "source_contract": {
+    "artifact_id": "lunch-is-packed-source-boundary",
+    "version": "1.0",
+    "file": "BUILD-NOTE.md",
+    "sha256": "bfc07c4195347c4ff18e79bf6f2520598a9a2fb8692a590722bf8dc78a152735"
+  },
+  "authority_state": "Teacher review required for local implementation facts",
+  "release_state": "Local-only",
+  "outcomes": [
+    {
+      "code": "TE4-SDP-01",
+      "statement": "explains relationships between sustainability, design and production",
+      "source_id": "nesa-technology-7-8-2023-outcomes",
+      "module_ids": [
+        3,
+        10
+      ]
+    },
+    {
+      "code": "TE4-PDP-01",
+      "statement": "describes the practices and processes of designers and producers",
+      "source_id": "nesa-technology-7-8-2023-outcomes",
+      "module_ids": [
+        2,
+        5,
+        8,
+        10
+      ]
+    },
+    {
+      "code": "TE4-MSC-01",
+      "statement": "explains how materials, systems and components contribute to solutions",
+      "source_id": "nesa-technology-7-8-2023-outcomes",
+      "module_ids": [
+        2,
+        4,
+        6,
+        7
+      ]
+    },
+    {
+      "code": "TE4-PPM-01",
+      "statement": "applies processes in the planning, management and production of projects",
+      "source_id": "nesa-technology-7-8-2023-outcomes",
+      "module_ids": [
+        1,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "code": "TE4-DES-01",
+      "statement": "communicates and evaluates design ideas and solutions",
+      "source_id": "nesa-technology-7-8-2023-outcomes",
+      "module_ids": [
+        1,
+        3,
+        5,
+        8,
+        10
+      ]
+    },
+    {
+      "code": "TE4-SAF-01",
+      "statement": "selects and safely uses tools, materials, technologies and processes",
+      "source_id": "nesa-technology-7-8-2023-outcomes",
+      "module_ids": [
+        4,
+        6,
+        7,
+        9
+      ]
+    },
+    {
+      "code": "TE4-DIG-01",
+      "statement": "demonstrates technological literacy to safely interact in digital environments",
+      "source_id": "nesa-technology-7-8-2023-outcomes",
+      "module_ids": [
+        9
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "module_id": 1,
+      "title": "The design challenge",
+      "timing": "Teacher to confirm",
+      "outcome_codes": [
+        "TE4-DES-01",
+        "TE4-PPM-01"
+      ],
+      "sections": [
+        {
+          "section_id": "1.1",
+          "title": "1.1 Need statement and design brief",
+          "content_descriptors": [
+            "Source-grounded textiles concept and its application to the Lunch Is Packed design project"
+          ],
+          "source_ids": [
+            "classroom-drive-sequence",
+            "nesa-technology-7-8-2023"
+          ],
+          "learning_intention": "Define a source-grounded design opportunity and establish evidence that can guide later decisions.",
+          "learning_sequence": [
+            "explicit theory",
+            "purposeful visual interpretation",
+            "one mapped click-to-play video",
+            "10 knowledge checks",
+            "guided written response"
+          ],
+          "working_scientifically": [
+            "observe",
+            "compare",
+            "apply evidence",
+            "evaluate where relevant"
+          ],
+          "evidence": [
+            "Guided response 1.1",
+            "Design brief evidence lab"
+          ],
+          "formative_checks": [
+            "10 section questions",
+            "teacher observation and feedback"
+          ],
+          "adjustments": [
+            "visual and plain-language support",
+            "chunked autosaving task",
+            "alternative transcription where appropriate"
+          ],
+          "resources": [
+            "course photograph or diagram",
+            "module presentation",
+            "teacher-approved classroom resources"
+          ],
+          "site_destinations": {
+            "theory": "modules/module-01.html#section-1",
+            "knowledge_check": "modules/module-01.html#check-m1s1",
+            "written_response": "modules/module-01.html#check-m1s1"
+          }
+        },
+        {
+          "section_id": "1.2",
+          "title": "1.2 Users and real needs",
+          "content_descriptors": [
+            "Source-grounded textiles concept and its application to the Lunch Is Packed design project"
+          ],
+          "source_ids": [
+            "classroom-drive-sequence",
+            "nesa-technology-7-8-2023"
+          ],
+          "learning_intention": "Define a source-grounded design opportunity and establish evidence that can guide later decisions.",
+          "learning_sequence": [
+            "explicit theory",
+            "purposeful visual interpretation",
+            "10 knowledge checks",
+            "guided written response"
+          ],
+          "working_scientifically": [
+            "observe",
+            "compare",
+            "apply evidence",
+            "evaluate where relevant"
+          ],
+          "evidence": [
+            "Guided response 1.2",
+            "Design brief evidence lab"
+          ],
+          "formative_checks": [
+            "10 section questions",
+            "teacher observation and feedback"
+          ],
+          "adjustments": [
+            "visual and plain-language support",
+            "chunked autosaving task",
+            "alternative transcription where appropriate"
+          ],
+          "resources": [
+            "course photograph or diagram",
+            "module presentation",
+            "teacher-approved classroom resources"
+          ],
+          "site_destinations": {
+            "theory": "modules/module-01.html#section-2",
+            "knowledge_check": "modules/module-01.html#check-m1s2",
+            "written_response": "modules/module-01.html#check-m1s2"
+          }
+        },
+        {
+          "section_id": "1.3",
+          "title": "1.3 Criteria, constraints and evidence",
+          "content_descriptors": [
+            "Source-grounded textiles concept and its application to the Lunch Is Packed design project"
+          ],
+          "source_ids": [
+            "classroom-drive-sequence",
+            "nesa-technology-7-8-2023"
+          ],
+          "learning_intention": "Define a source-grounded design opportunity and establish evidence that can guide later decisions.",
+          "learning_sequence": [
+            "explicit theory",
+            "purposeful visual interpretation",
+            "10 knowledge checks",
+            "guided written response"
+          ],
+          "working_scientifically": [
+            "observe",
+            "compare",
+            "apply evidence",
+            "evaluate where relevant"
+          ],
+          "evidence": [
+            "Guided response 1.3",
+            "Design brief evidence lab"
+          ],
+          "formative_checks": [
+            "10 section questions",
+            "teacher observation and feedback"
+          ],
+          "adjustments": [
+            "visual and plain-language support",
+            "chunked autosaving task",
+            "alternative transcription where appropriate"
+          ],
+          "resources": [
+            "course photograph or diagram",
+            "module presentation",
+            "teacher-approved classroom resources"
+          ],
+          "site_destinations": {
+            "theory": "modules/module-01.html#section-3",
+            "knowledge_check": "modules/module-01.html#check-m1s3",
+            "written_response": "modules/module-01.html#check-m1s3"
+          }
+        }
+      ]
+    },
+    {
+      "module_id": 2,
+      "title": "Textiles around us",
+      "timing": "Teacher to confirm",
+      "outcome_codes": [
+        "TE4-MSC-01",
+        "TE4-PDP-01"
+      ],
+      "sections": [
+        {
+          "section_id": "2.1",
+          "title": "2.1 Textiles in everyday life",
+          "content_descriptors": [
+            "Source-grounded textiles concept and its application to the Lunch Is Packed design project"
+          ],
+          "source_ids": [
+            "classroom-drive-sequence",
+            "nesa-technology-7-8-2023"
+          ],
+          "learning_intention": "Explain textile structures and compare observed material properties for a stated end use.",
+          "learning_sequence": [
+            "explicit theory",
+            "purposeful visual interpretation",
+            "10 knowledge checks",
+            "guided written response"
+          ],
+          "working_scientifically": [
+            "observe",
+            "compare",
+            "apply evidence",
+            "evaluate where relevant"
+          ],
+          "evidence": [
+            "Guided response 2.1",
+            "Textile sample investigation"
+          ],
+          "formative_checks": [
+            "10 section questions",
+            "teacher observation and feedback"
+          ],
+          "adjustments": [
+            "visual and plain-language support",
+            "chunked autosaving task",
+            "alternative transcription where appropriate"
+          ],
+          "resources": [
+            "course photograph or diagram",
+            "module presentation",
+            "teacher-approved classroom resources"
+          ],
+          "site_destinations": {
+            "theory": "modules/module-02.html#section-1",
+            "knowledge_check": "modules/module-02.html#check-m2s1",
+            "written_response": "modules/module-02.html#check-m2s1"
+          }
+        },
+        {
+          "section_id": "2.2",
+          "title": "2.2 From fibre to fabric",
+          "content_descriptors": [
+            "Source-grounded textiles concept and its application to the Lunch Is Packed design project"
+          ],
+          "source_ids": [
+            "classroom-drive-sequence",
+            "nesa-technology-7-8-2023"
+          ],
+          "learning_intention": "Explain textile structures and compare observed material properties for a stated end use.",
+          "learning_sequence": [
+            "explicit theory",
+            "purposeful visual interpretation",
+            "one mapped click-to-play video",
+            "10 knowledge checks",
+            "guided written response"
+          ],
+          "working_scientifically": [
+            "observe",
+            "compare",
+            "apply evidence",
+            "evaluate where relevant"
+          ],
+          "evidence": [
+            "Guided response 2.2",
+            "Textile sample investigation"
+          ],
+          "formative_checks": [
+            "10 section questions",
+            "teacher observation and feedback"
+          ],
+          "adjustments": [
+            "visual and plain-language support",
+            "chunked autosaving task",
+            "alternative transcription where appropriate"
+          ],
+          "resources": [
+            "course photograph or diagram",
+            "module presentation",
+            "teacher-approved classroom resources"
+          ],
+          "site_destinations": {
+            "theory": "modules/module-02.html#section-2",
+            "knowledge_check": "modules/module-02.html#check-m2s2",
+            "written_response": "modules/module-02.html#check-m2s2"
+          }
+        },
+        {
+          "section_id": "2.3",
+          "title": "2.3 Selecting by properties",
+          "content_descriptors": [
+            "Source-grounded textiles concept and its application to the Lunch Is Packed design project"
+          ],
+          "source_ids": [
+            "classroom-drive-sequence",
+            "nesa-technology-7-8-2023"
+          ],
+          "learning_intention": "Explain textile structures and compare observed material properties for a stated end use.",
+          "learning_sequence": [
+            "explicit theory",
+            "purposeful visual interpretation",
+            "10 knowledge checks",
+            "guided written response"
+          ],
+          "working_scientifically": [
+            "observe",
+            "compare",
+            "apply evidence",
+            "evaluate where relevant"
+          ],
+          "evidence": [
+            "Guided response 2.3",
+            "Textile sample investigation"
+          ],
+          "formative_checks": [
+            "10 section questions",
+            "teacher observation and feedback"
+          ],
+          "adjustments": [
+            "visual and plain-language support",
+            "chunked autosaving task",
+            "alternative transcription where appropriate"
+          ],
+          "resources": [
+            "course photograph or diagram",
+            "module presentation",
+            "teacher-approved classroom resources"
+          ],
+          "site_destinations": {
+            "theory": "modules/module-02.html#section-3",
+            "knowledge_check": "modules/module-02.html#check-m2s3",
+            "written_response": "modules/module-02.html#check-m2s3"
+          }
+        }
+      ]
+    },
+    {
+      "module_id": 3,
+      "title": "Sustainable lunch choices",
+      "timing": "Teacher to confirm",
+      "outcome_codes": [
+        "TE4-SDP-01",
+        "TE4-DES-01"
+      ],
+      "sections": [
+        {
+          "section_id": "3.1",
+          "title": "3.1 The single-use problem",
+          "content_descriptors": [
+            "Source-grounded textiles concept and its application to the Lunch Is Packed design project"
+          ],
+          "source_ids": [
+            "classroom-drive-sequence",
+            "nesa-technology-7-8-2023"
+          ],
+          "learning_intention": "Use audit and life-cycle evidence to explain a realistic sustainability response.",
+          "learning_sequence": [
+            "explicit theory",
+            "purposeful visual interpretation",
+            "one mapped click-to-play video",
+            "10 knowledge checks",
+            "guided written response"
+          ],
+          "working_scientifically": [
+            "observe",
+            "compare",
+            "apply evidence",
+            "evaluate where relevant"
+          ],
+          "evidence": [
+            "Guided response 3.1",
+            "Lunch-waste action investigation"
+          ],
+          "formative_checks": [
+            "10 section questions",
+            "teacher observation and feedback"
+          ],
+          "adjustments": [
+            "visual and plain-language support",
+            "chunked autosaving task",
+            "alternative transcription where appropriate"
+          ],
+          "resources": [
+            "course photograph or diagram",
+            "module presentation",
+            "teacher-approved classroom resources"
+          ],
+          "site_destinations": {
+            "theory": "modules/module-03.html#section-1",
+            "knowledge_check": "modules/module-03.html#check-m3s1",
+            "written_response": "modules/module-03.html#check-m3s1"
+          }
+        },
+        {
+          "section_id": "3.2",
+          "title": "3.2 Product life cycle thinking",
+          "content_descriptors": [
+            "Source-grounded textiles concept and its application to the Lunch Is Packed design project"
+          ],
+          "source_ids": [
+            "classroom-drive-sequence",
+            "nesa-technology-7-8-2023"
+          ],
+          "learning_intention": "Use audit and life-cycle evidence to explain a realistic sustainability response.",
+          "learning_sequence": [
+            "explicit theory",
+            "purposeful visual interpretation",
+            "10 knowledge checks",
+            "guided written response"
+          ],
+          "working_scientifically": [
+            "observe",
+            "compare",
+            "apply evidence",
+            "evaluate where relevant"
+          ],
+          "evidence": [
+            "Guided response 3.2",
+            "Lunch-waste action investigation"
+          ],
+          "formative_checks": [
+            "10 section questions",
+            "teacher observation and feedback"
+          ],
+          "adjustments": [
+            "visual and plain-language support",
+            "chunked autosaving task",
+            "alternative transcription where appropriate"
+          ],
+          "resources": [
+            "course photograph or diagram",
+            "module presentation",
+            "teacher-approved classroom resources"
+          ],
+          "site_destinations": {
+            "theory": "modules/module-03.html#section-2",
+            "knowledge_check": "modules/module-03.html#check-m3s2",
+            "written_response": "modules/module-03.html#check-m3s2"
+          }
+        },
+        {
+          "section_id": "3.3",
+          "title": "3.3 Personal action with evidence",
+          "content_descriptors": [
+            "Source-grounded textiles concept and its application to the Lunch Is Packed design project"
+          ],
+          "source_ids": [
+            "classroom-drive-sequence",
+            "nesa-technology-7-8-2023"
+          ],
+          "learning_intention": "Use audit and life-cycle evidence to explain a realistic sustainability response.",
+          "learning_sequence": [
+            "explicit theory",
+            "purposeful visual interpretation",
+            "10 knowledge checks",
+            "guided written response"
+          ],
+          "working_scientifically": [
+            "observe",
+            "compare",
+            "apply evidence",
+            "evaluate where relevant"
+          ],
+          "evidence": [
+            "Guided response 3.3",
+            "Lunch-waste action investigation"
+          ],
+          "formative_checks": [
+            "10 section questions",
+            "teacher observation and feedback"
+          ],
+          "adjustments": [
+            "visual and plain-language support",
+            "chunked autosaving task",
+            "alternative transcription where appropriate"
+          ],
+          "resources": [
+            "course photograph or diagram",
+            "module presentation",
+            "teacher-approved classroom resources"
+          ],
+          "site_destinations": {
+            "theory": "modules/module-03.html#section-3",
+            "knowledge_check": "modules/module-03.html#check-m3s3",
+            "written_response": "modules/module-03.html#check-m3s3"
+          }
+        }
+      ]
+    },
+    {
+      "module_id": 4,
+      "title": "Tools, materials and safety",
+      "timing": "Teacher to confirm",
+      "outcome_codes": [
+        "TE4-SAF-01",
+        "TE4-MSC-01"
+      ],
+      "sections": [
+        {
+          "section_id": "4.1",
+          "title": "4.1 Safe textile-work routines",
+          "content_descriptors": [
+            "Source-grounded textiles concept and its application to the Lunch Is Packed design project"
+          ],
+          "source_ids": [
+            "classroom-drive-sequence",
+            "nesa-technology-7-8-2023"
+          ],
+          "learning_intention": "Recognise hazards, apply specific controls and connect resources to their actual functions.",
+          "learning_sequence": [
+            "explicit theory",
+            "purposeful visual interpretation",
+            "one mapped click-to-play video",
+            "10 knowledge checks",
+            "guided written response"
+          ],
+          "working_scientifically": [
+            "observe",
+            "compare",
+            "apply evidence",
+            "evaluate where relevant"
+          ],
+          "evidence": [
+            "Guided response 4.1",
+            "Safety scenario studio"
+          ],
+          "formative_checks": [
+            "10 section questions",
+            "teacher observation and feedback"
+          ],
+          "adjustments": [
+            "visual and plain-language support",
+            "chunked autosaving task",
+            "alternative transcription where appropriate"
+          ],
+          "resources": [
+            "course photograph or diagram",
+            "module presentation",
+            "teacher-approved classroom resources"
+          ],
+          "site_destinations": {
+            "theory": "modules/module-04.html#section-1",
+            "knowledge_check": "modules/module-04.html#check-m4s1",
+            "written_response": "modules/module-04.html#check-m4s1"
+          }
+        },
+        {
+          "section_id": "4.2",
+          "title": "4.2 Pins, scissors and steam irons",
+          "content_descriptors": [
+            "Source-grounded textiles concept and its application to the Lunch Is Packed design project"
+          ],
+          "source_ids": [
+            "classroom-drive-sequence",
+            "nesa-technology-7-8-2023"
+          ],
+          "learning_intention": "Recognise hazards, apply specific controls and connect resources to their actual functions.",
+          "learning_sequence": [
+            "explicit theory",
+            "purposeful visual interpretation",
+            "10 knowledge checks",
+            "guided written response"
+          ],
+          "working_scientifically": [
+            "observe",
+            "compare",
+            "apply evidence",
+            "evaluate where relevant"
+          ],
+          "evidence": [
+            "Guided response 4.2",
+            "Safety scenario studio"
+          ],
+          "formative_checks": [
+            "10 section questions",
+            "teacher observation and feedback"
+          ],
+          "adjustments": [
+            "visual and plain-language support",
+            "chunked autosaving task",
+            "alternative transcription where appropriate"
+          ],
+          "resources": [
+            "course photograph or diagram",
+            "module presentation",
+            "teacher-approved classroom resources"
+          ],
+          "site_destinations": {
+            "theory": "modules/module-04.html#section-2",
+            "knowledge_check": "modules/module-04.html#check-m4s2",
+            "written_response": "modules/module-04.html#check-m4s2"
+          }
+        },
+        {
+          "section_id": "4.3",
+          "title": "4.3 A purposeful equipment list",
+          "content_descriptors": [
+            "Source-grounded textiles concept and its application to the Lunch Is Packed design project"
+          ],
+          "source_ids": [
+            "classroom-drive-sequence",
+            "nesa-technology-7-8-2023"
+          ],
+          "learning_intention": "Recognise hazards, apply specific controls and connect resources to their actual functions.",
+          "learning_sequence": [
+            "explicit theory",
+            "purposeful visual interpretation",
+            "10 knowledge checks",
+            "guided written response"
+          ],
+          "working_scientifically": [
+            "observe",
+            "compare",
+            "apply evidence",
+            "evaluate where relevant"
+          ],
+          "evidence": [
+            "Guided response 4.3",
+            "Safety scenario studio"
+          ],
+          "formative_checks": [
+            "10 section questions",
+            "teacher observation and feedback"
+          ],
+          "adjustments": [
+            "visual and plain-language support",
+            "chunked autosaving task",
+            "alternative transcription where appropriate"
+          ],
+          "resources": [
+            "course photograph or diagram",
+            "module presentation",
+            "teacher-approved classroom resources"
+          ],
+          "site_destinations": {
+            "theory": "modules/module-04.html#section-3",
+            "knowledge_check": "modules/module-04.html#check-m4s3",
+            "written_response": "modules/module-04.html#check-m4s3"
+          }
+        }
+      ]
+    },
+    {
+      "module_id": 5,
+      "title": "Develop and communicate ideas",
+      "timing": "Teacher to confirm",
+      "outcome_codes": [
+        "TE4-DES-01",
+        "TE4-PDP-01"
+      ],
+      "sections": [
+        {
+          "section_id": "5.1",
+          "title": "5.1 Research and inspiration",
+          "content_descriptors": [
+            "Source-grounded textiles concept and its application to the Lunch Is Packed design project"
+          ],
+          "source_ids": [
+            "classroom-drive-sequence",
+            "nesa-technology-7-8-2023"
+          ],
+          "learning_intention": "Transform research into genuinely different concepts and justify a selected direction.",
+          "learning_sequence": [
+            "explicit theory",
+            "purposeful visual interpretation",
+            "10 knowledge checks",
+            "guided written response"
+          ],
+          "working_scientifically": [
+            "observe",
+            "compare",
+            "apply evidence",
+            "evaluate where relevant"
+          ],
+          "evidence": [
+            "Guided response 5.1",
+            "Four-concept design studio"
+          ],
+          "formative_checks": [
+            "10 section questions",
+            "teacher observation and feedback"
+          ],
+          "adjustments": [
+            "visual and plain-language support",
+            "chunked autosaving task",
+            "alternative transcription where appropriate"
+          ],
+          "resources": [
+            "course photograph or diagram",
+            "module presentation",
+            "teacher-approved classroom resources"
+          ],
+          "site_destinations": {
+            "theory": "modules/module-05.html#section-1",
+            "knowledge_check": "modules/module-05.html#check-m5s1",
+            "written_response": "modules/module-05.html#check-m5s1"
+          }
+        },
+        {
+          "section_id": "5.2",
+          "title": "5.2 Generate different concepts",
+          "content_descriptors": [
+            "Source-grounded textiles concept and its application to the Lunch Is Packed design project"
+          ],
+          "source_ids": [
+            "classroom-drive-sequence",
+            "nesa-technology-7-8-2023"
+          ],
+          "learning_intention": "Transform research into genuinely different concepts and justify a selected direction.",
+          "learning_sequence": [
+            "explicit theory",
+            "purposeful visual interpretation",
+            "one mapped click-to-play video",
+            "10 knowledge checks",
+            "guided written response"
+          ],
+          "working_scientifically": [
+            "observe",
+            "compare",
+            "apply evidence",
+            "evaluate where relevant"
+          ],
+          "evidence": [
+            "Guided response 5.2",
+            "Four-concept design studio"
+          ],
+          "formative_checks": [
+            "10 section questions",
+            "teacher observation and feedback"
+          ],
+          "adjustments": [
+            "visual and plain-language support",
+            "chunked autosaving task",
+            "alternative transcription where appropriate"
+          ],
+          "resources": [
+            "course photograph or diagram",
+            "module presentation",
+            "teacher-approved classroom resources"
+          ],
+          "site_destinations": {
+            "theory": "modules/module-05.html#section-2",
+            "knowledge_check": "modules/module-05.html#check-m5s2",
+            "written_response": "modules/module-05.html#check-m5s2"
+          }
+        },
+        {
+          "section_id": "5.3",
+          "title": "5.3 Final design communication",
+          "content_descriptors": [
+            "Source-grounded textiles concept and its application to the Lunch Is Packed design project"
+          ],
+          "source_ids": [
+            "classroom-drive-sequence",
+            "nesa-technology-7-8-2023"
+          ],
+          "learning_intention": "Transform research into genuinely different concepts and justify a selected direction.",
+          "learning_sequence": [
+            "explicit theory",
+            "purposeful visual interpretation",
+            "10 knowledge checks",
+            "guided written response"
+          ],
+          "working_scientifically": [
+            "observe",
+            "compare",
+            "apply evidence",
+            "evaluate where relevant"
+          ],
+          "evidence": [
+            "Guided response 5.3",
+            "Four-concept design studio"
+          ],
+          "formative_checks": [
+            "10 section questions",
+            "teacher observation and feedback"
+          ],
+          "adjustments": [
+            "visual and plain-language support",
+            "chunked autosaving task",
+            "alternative transcription where appropriate"
+          ],
+          "resources": [
+            "course photograph or diagram",
+            "module presentation",
+            "teacher-approved classroom resources"
+          ],
+          "site_destinations": {
+            "theory": "modules/module-05.html#section-3",
+            "knowledge_check": "modules/module-05.html#check-m5s3",
+            "written_response": "modules/module-05.html#check-m5s3"
+          }
+        }
+      ]
+    },
+    {
+      "module_id": 6,
+      "title": "Know the sewing machine",
+      "timing": "Teacher to confirm",
+      "outcome_codes": [
+        "TE4-MSC-01",
+        "TE4-SAF-01"
+      ],
+      "sections": [
+        {
+          "section_id": "6.1",
+          "title": "6.1 Thread path and stitch-forming parts",
+          "content_descriptors": [
+            "Source-grounded textiles concept and its application to the Lunch Is Packed design project"
+          ],
+          "source_ids": [
+            "classroom-drive-sequence",
+            "nesa-technology-7-8-2023"
+          ],
+          "learning_intention": "Explain how machine components interact and distinguish general systems from model-specific facts.",
+          "learning_sequence": [
+            "explicit theory",
+            "purposeful visual interpretation",
+            "one mapped click-to-play video",
+            "10 knowledge checks",
+            "guided written response"
+          ],
+          "working_scientifically": [
+            "observe",
+            "compare",
+            "apply evidence",
+            "evaluate where relevant"
+          ],
+          "evidence": [
+            "Guided response 6.1",
+            "Sewing machine systems lab"
+          ],
+          "formative_checks": [
+            "10 section questions",
+            "teacher observation and feedback"
+          ],
+          "adjustments": [
+            "visual and plain-language support",
+            "chunked autosaving task",
+            "alternative transcription where appropriate"
+          ],
+          "resources": [
+            "course photograph or diagram",
+            "module presentation",
+            "teacher-approved classroom resources"
+          ],
+          "site_destinations": {
+            "theory": "modules/module-06.html#section-1",
+            "knowledge_check": "modules/module-06.html#check-m6s1",
+            "written_response": "modules/module-06.html#check-m6s1"
+          }
+        },
+        {
+          "section_id": "6.2",
+          "title": "6.2 Holding and moving fabric",
+          "content_descriptors": [
+            "Source-grounded textiles concept and its application to the Lunch Is Packed design project"
+          ],
+          "source_ids": [
+            "classroom-drive-sequence",
+            "nesa-technology-7-8-2023"
+          ],
+          "learning_intention": "Explain how machine components interact and distinguish general systems from model-specific facts.",
+          "learning_sequence": [
+            "explicit theory",
+            "purposeful visual interpretation",
+            "10 knowledge checks",
+            "guided written response"
+          ],
+          "working_scientifically": [
+            "observe",
+            "compare",
+            "apply evidence",
+            "evaluate where relevant"
+          ],
+          "evidence": [
+            "Guided response 6.2",
+            "Sewing machine systems lab"
+          ],
+          "formative_checks": [
+            "10 section questions",
+            "teacher observation and feedback"
+          ],
+          "adjustments": [
+            "visual and plain-language support",
+            "chunked autosaving task",
+            "alternative transcription where appropriate"
+          ],
+          "resources": [
+            "course photograph or diagram",
+            "module presentation",
+            "teacher-approved classroom resources"
+          ],
+          "site_destinations": {
+            "theory": "modules/module-06.html#section-2",
+            "knowledge_check": "modules/module-06.html#check-m6s2",
+            "written_response": "modules/module-06.html#check-m6s2"
+          }
+        },
+        {
+          "section_id": "6.3",
+          "title": "6.3 Controls and their purpose",
+          "content_descriptors": [
+            "Source-grounded textiles concept and its application to the Lunch Is Packed design project"
+          ],
+          "source_ids": [
+            "classroom-drive-sequence",
+            "nesa-technology-7-8-2023"
+          ],
+          "learning_intention": "Explain how machine components interact and distinguish general systems from model-specific facts.",
+          "learning_sequence": [
+            "explicit theory",
+            "purposeful visual interpretation",
+            "10 knowledge checks",
+            "guided written response"
+          ],
+          "working_scientifically": [
+            "observe",
+            "compare",
+            "apply evidence",
+            "evaluate where relevant"
+          ],
+          "evidence": [
+            "Guided response 6.3",
+            "Sewing machine systems lab"
+          ],
+          "formative_checks": [
+            "10 section questions",
+            "teacher observation and feedback"
+          ],
+          "adjustments": [
+            "visual and plain-language support",
+            "chunked autosaving task",
+            "alternative transcription where appropriate"
+          ],
+          "resources": [
+            "course photograph or diagram",
+            "module presentation",
+            "teacher-approved classroom resources"
+          ],
+          "site_destinations": {
+            "theory": "modules/module-06.html#section-3",
+            "knowledge_check": "modules/module-06.html#check-m6s3",
+            "written_response": "modules/module-06.html#check-m6s3"
+          }
+        }
+      ]
+    },
+    {
+      "module_id": 7,
+      "title": "Set up and practise",
+      "timing": "Teacher to confirm",
+      "outcome_codes": [
+        "TE4-SAF-01",
+        "TE4-PPM-01",
+        "TE4-MSC-01"
+      ],
+      "sections": [
+        {
+          "section_id": "7.1",
+          "title": "7.1 Threading and the bobbin",
+          "content_descriptors": [
+            "Source-grounded textiles concept and its application to the Lunch Is Packed design project"
+          ],
+          "source_ids": [
+            "classroom-drive-sequence",
+            "nesa-technology-7-8-2023"
+          ],
+          "learning_intention": "Apply demonstrated setup routines, practise control and diagnose visible stitch symptoms safely.",
+          "learning_sequence": [
+            "explicit theory",
+            "purposeful visual interpretation",
+            "one mapped click-to-play video",
+            "10 knowledge checks",
+            "guided written response"
+          ],
+          "working_scientifically": [
+            "observe",
+            "compare",
+            "apply evidence",
+            "evaluate where relevant"
+          ],
+          "evidence": [
+            "Guided response 7.1",
+            "Stitch detective lab"
+          ],
+          "formative_checks": [
+            "10 section questions",
+            "teacher observation and feedback"
+          ],
+          "adjustments": [
+            "visual and plain-language support",
+            "chunked autosaving task",
+            "alternative transcription where appropriate"
+          ],
+          "resources": [
+            "course photograph or diagram",
+            "module presentation",
+            "teacher-approved classroom resources"
+          ],
+          "site_destinations": {
+            "theory": "modules/module-07.html#section-1",
+            "knowledge_check": "modules/module-07.html#check-m7s1",
+            "written_response": "modules/module-07.html#check-m7s1"
+          }
+        },
+        {
+          "section_id": "7.2",
+          "title": "7.2 Starting, guiding and finishing",
+          "content_descriptors": [
+            "Source-grounded textiles concept and its application to the Lunch Is Packed design project"
+          ],
+          "source_ids": [
+            "classroom-drive-sequence",
+            "nesa-technology-7-8-2023"
+          ],
+          "learning_intention": "Apply demonstrated setup routines, practise control and diagnose visible stitch symptoms safely.",
+          "learning_sequence": [
+            "explicit theory",
+            "purposeful visual interpretation",
+            "10 knowledge checks",
+            "guided written response"
+          ],
+          "working_scientifically": [
+            "observe",
+            "compare",
+            "apply evidence",
+            "evaluate where relevant"
+          ],
+          "evidence": [
+            "Guided response 7.2",
+            "Stitch detective lab"
+          ],
+          "formative_checks": [
+            "10 section questions",
+            "teacher observation and feedback"
+          ],
+          "adjustments": [
+            "visual and plain-language support",
+            "chunked autosaving task",
+            "alternative transcription where appropriate"
+          ],
+          "resources": [
+            "course photograph or diagram",
+            "module presentation",
+            "teacher-approved classroom resources"
+          ],
+          "site_destinations": {
+            "theory": "modules/module-07.html#section-2",
+            "knowledge_check": "modules/module-07.html#check-m7s2",
+            "written_response": "modules/module-07.html#check-m7s2"
+          }
+        },
+        {
+          "section_id": "7.3",
+          "title": "7.3 Reading stitch quality",
+          "content_descriptors": [
+            "Source-grounded textiles concept and its application to the Lunch Is Packed design project"
+          ],
+          "source_ids": [
+            "classroom-drive-sequence",
+            "nesa-technology-7-8-2023"
+          ],
+          "learning_intention": "Apply demonstrated setup routines, practise control and diagnose visible stitch symptoms safely.",
+          "learning_sequence": [
+            "explicit theory",
+            "purposeful visual interpretation",
+            "10 knowledge checks",
+            "guided written response"
+          ],
+          "working_scientifically": [
+            "observe",
+            "compare",
+            "apply evidence",
+            "evaluate where relevant"
+          ],
+          "evidence": [
+            "Guided response 7.3",
+            "Stitch detective lab"
+          ],
+          "formative_checks": [
+            "10 section questions",
+            "teacher observation and feedback"
+          ],
+          "adjustments": [
+            "visual and plain-language support",
+            "chunked autosaving task",
+            "alternative transcription where appropriate"
+          ],
+          "resources": [
+            "course photograph or diagram",
+            "module presentation",
+            "teacher-approved classroom resources"
+          ],
+          "site_destinations": {
+            "theory": "modules/module-07.html#section-3",
+            "knowledge_check": "modules/module-07.html#check-m7s3",
+            "written_response": "modules/module-07.html#check-m7s3"
+          }
+        }
+      ]
+    },
+    {
+      "module_id": 8,
+      "title": "Decoration and surface design",
+      "timing": "Teacher to confirm",
+      "outcome_codes": [
+        "TE4-PDP-01",
+        "TE4-DES-01",
+        "TE4-PPM-01"
+      ],
+      "sections": [
+        {
+          "section_id": "8.1",
+          "title": "8.1 Visual design choices",
+          "content_descriptors": [
+            "Source-grounded textiles concept and its application to the Lunch Is Packed design project"
+          ],
+          "source_ids": [
+            "classroom-drive-sequence",
+            "nesa-technology-7-8-2023"
+          ],
+          "learning_intention": "Develop an original surface-design response and refine it through a focused production sample.",
+          "learning_sequence": [
+            "explicit theory",
+            "purposeful visual interpretation",
+            "10 knowledge checks",
+            "guided written response"
+          ],
+          "working_scientifically": [
+            "observe",
+            "compare",
+            "apply evidence",
+            "evaluate where relevant"
+          ],
+          "evidence": [
+            "Guided response 8.1",
+            "Designer and applique sample studio"
+          ],
+          "formative_checks": [
+            "10 section questions",
+            "teacher observation and feedback"
+          ],
+          "adjustments": [
+            "visual and plain-language support",
+            "chunked autosaving task",
+            "alternative transcription where appropriate"
+          ],
+          "resources": [
+            "course photograph or diagram",
+            "module presentation",
+            "teacher-approved classroom resources"
+          ],
+          "site_destinations": {
+            "theory": "modules/module-08.html#section-1",
+            "knowledge_check": "modules/module-08.html#check-m8s1",
+            "written_response": "modules/module-08.html#check-m8s1"
+          }
+        },
+        {
+          "section_id": "8.2",
+          "title": "8.2 Applique as a technique",
+          "content_descriptors": [
+            "Source-grounded textiles concept and its application to the Lunch Is Packed design project"
+          ],
+          "source_ids": [
+            "classroom-drive-sequence",
+            "nesa-technology-7-8-2023"
+          ],
+          "learning_intention": "Develop an original surface-design response and refine it through a focused production sample.",
+          "learning_sequence": [
+            "explicit theory",
+            "purposeful visual interpretation",
+            "one mapped click-to-play video",
+            "10 knowledge checks",
+            "guided written response"
+          ],
+          "working_scientifically": [
+            "observe",
+            "compare",
+            "apply evidence",
+            "evaluate where relevant"
+          ],
+          "evidence": [
+            "Guided response 8.2",
+            "Designer and applique sample studio"
+          ],
+          "formative_checks": [
+            "10 section questions",
+            "teacher observation and feedback"
+          ],
+          "adjustments": [
+            "visual and plain-language support",
+            "chunked autosaving task",
+            "alternative transcription where appropriate"
+          ],
+          "resources": [
+            "course photograph or diagram",
+            "module presentation",
+            "teacher-approved classroom resources"
+          ],
+          "site_destinations": {
+            "theory": "modules/module-08.html#section-2",
+            "knowledge_check": "modules/module-08.html#check-m8s2",
+            "written_response": "modules/module-08.html#check-m8s2"
+          }
+        },
+        {
+          "section_id": "8.3",
+          "title": "8.3 Test before committing",
+          "content_descriptors": [
+            "Source-grounded textiles concept and its application to the Lunch Is Packed design project"
+          ],
+          "source_ids": [
+            "classroom-drive-sequence",
+            "nesa-technology-7-8-2023"
+          ],
+          "learning_intention": "Develop an original surface-design response and refine it through a focused production sample.",
+          "learning_sequence": [
+            "explicit theory",
+            "purposeful visual interpretation",
+            "10 knowledge checks",
+            "guided written response"
+          ],
+          "working_scientifically": [
+            "observe",
+            "compare",
+            "apply evidence",
+            "evaluate where relevant"
+          ],
+          "evidence": [
+            "Guided response 8.3",
+            "Designer and applique sample studio"
+          ],
+          "formative_checks": [
+            "10 section questions",
+            "teacher observation and feedback"
+          ],
+          "adjustments": [
+            "visual and plain-language support",
+            "chunked autosaving task",
+            "alternative transcription where appropriate"
+          ],
+          "resources": [
+            "course photograph or diagram",
+            "module presentation",
+            "teacher-approved classroom resources"
+          ],
+          "site_destinations": {
+            "theory": "modules/module-08.html#section-3",
+            "knowledge_check": "modules/module-08.html#check-m8s3",
+            "written_response": "modules/module-08.html#check-m8s3"
+          }
+        }
+      ]
+    },
+    {
+      "module_id": 9,
+      "title": "Plan and construct",
+      "timing": "Teacher to confirm",
+      "outcome_codes": [
+        "TE4-PPM-01",
+        "TE4-SAF-01",
+        "TE4-DIG-01"
+      ],
+      "sections": [
+        {
+          "section_id": "9.1",
+          "title": "9.1 Prepare resources and a workplan",
+          "content_descriptors": [
+            "Source-grounded textiles concept and its application to the Lunch Is Packed design project"
+          ],
+          "source_ids": [
+            "classroom-drive-sequence",
+            "nesa-technology-7-8-2023"
+          ],
+          "learning_intention": "Manage an approved production sequence, use planned quality hold points and record authentic evidence.",
+          "learning_sequence": [
+            "explicit theory",
+            "purposeful visual interpretation",
+            "10 knowledge checks",
+            "guided written response"
+          ],
+          "working_scientifically": [
+            "observe",
+            "compare",
+            "apply evidence",
+            "evaluate where relevant"
+          ],
+          "evidence": [
+            "Guided response 9.1",
+            "Production control room"
+          ],
+          "formative_checks": [
+            "10 section questions",
+            "teacher observation and feedback"
+          ],
+          "adjustments": [
+            "visual and plain-language support",
+            "chunked autosaving task",
+            "alternative transcription where appropriate"
+          ],
+          "resources": [
+            "course photograph or diagram",
+            "module presentation",
+            "teacher-approved classroom resources"
+          ],
+          "site_destinations": {
+            "theory": "modules/module-09.html#section-1",
+            "knowledge_check": "modules/module-09.html#check-m9s1",
+            "written_response": "modules/module-09.html#check-m9s1"
+          }
+        },
+        {
+          "section_id": "9.2",
+          "title": "9.2 Accuracy during construction",
+          "content_descriptors": [
+            "Source-grounded textiles concept and its application to the Lunch Is Packed design project"
+          ],
+          "source_ids": [
+            "classroom-drive-sequence",
+            "nesa-technology-7-8-2023"
+          ],
+          "learning_intention": "Manage an approved production sequence, use planned quality hold points and record authentic evidence.",
+          "learning_sequence": [
+            "explicit theory",
+            "purposeful visual interpretation",
+            "10 knowledge checks",
+            "guided written response"
+          ],
+          "working_scientifically": [
+            "observe",
+            "compare",
+            "apply evidence",
+            "evaluate where relevant"
+          ],
+          "evidence": [
+            "Guided response 9.2",
+            "Production control room"
+          ],
+          "formative_checks": [
+            "10 section questions",
+            "teacher observation and feedback"
+          ],
+          "adjustments": [
+            "visual and plain-language support",
+            "chunked autosaving task",
+            "alternative transcription where appropriate"
+          ],
+          "resources": [
+            "course photograph or diagram",
+            "module presentation",
+            "teacher-approved classroom resources"
+          ],
+          "site_destinations": {
+            "theory": "modules/module-09.html#section-2",
+            "knowledge_check": "modules/module-09.html#check-m9s2",
+            "written_response": "modules/module-09.html#check-m9s2"
+          }
+        },
+        {
+          "section_id": "9.3",
+          "title": "9.3 Quality control and evidence",
+          "content_descriptors": [
+            "Source-grounded textiles concept and its application to the Lunch Is Packed design project"
+          ],
+          "source_ids": [
+            "classroom-drive-sequence",
+            "nesa-technology-7-8-2023"
+          ],
+          "learning_intention": "Manage an approved production sequence, use planned quality hold points and record authentic evidence.",
+          "learning_sequence": [
+            "explicit theory",
+            "purposeful visual interpretation",
+            "10 knowledge checks",
+            "guided written response"
+          ],
+          "working_scientifically": [
+            "observe",
+            "compare",
+            "apply evidence",
+            "evaluate where relevant"
+          ],
+          "evidence": [
+            "Guided response 9.3",
+            "Production control room"
+          ],
+          "formative_checks": [
+            "10 section questions",
+            "teacher observation and feedback"
+          ],
+          "adjustments": [
+            "visual and plain-language support",
+            "chunked autosaving task",
+            "alternative transcription where appropriate"
+          ],
+          "resources": [
+            "course photograph or diagram",
+            "module presentation",
+            "teacher-approved classroom resources"
+          ],
+          "site_destinations": {
+            "theory": "modules/module-09.html#section-3",
+            "knowledge_check": "modules/module-09.html#check-m9s3",
+            "written_response": "modules/module-09.html#check-m9s3"
+          }
+        }
+      ]
+    },
+    {
+      "module_id": 10,
+      "title": "Test, evaluate and improve",
+      "timing": "Teacher to confirm",
+      "outcome_codes": [
+        "TE4-DES-01",
+        "TE4-SDP-01",
+        "TE4-PDP-01"
+      ],
+      "sections": [
+        {
+          "section_id": "10.1",
+          "title": "10.1 Testing the product",
+          "content_descriptors": [
+            "Source-grounded textiles concept and its application to the Lunch Is Packed design project"
+          ],
+          "source_ids": [
+            "classroom-drive-sequence",
+            "nesa-technology-7-8-2023"
+          ],
+          "learning_intention": "Test the solution against criteria and use evidence to evaluate performance and propose improvement.",
+          "learning_sequence": [
+            "explicit theory",
+            "purposeful visual interpretation",
+            "10 knowledge checks",
+            "guided written response"
+          ],
+          "working_scientifically": [
+            "observe",
+            "compare",
+            "apply evidence",
+            "evaluate where relevant"
+          ],
+          "evidence": [
+            "Guided response 10.1",
+            "Product test and evaluation lab"
+          ],
+          "formative_checks": [
+            "10 section questions",
+            "teacher observation and feedback"
+          ],
+          "adjustments": [
+            "visual and plain-language support",
+            "chunked autosaving task",
+            "alternative transcription where appropriate"
+          ],
+          "resources": [
+            "course photograph or diagram",
+            "module presentation",
+            "teacher-approved classroom resources"
+          ],
+          "site_destinations": {
+            "theory": "modules/module-10.html#section-1",
+            "knowledge_check": "modules/module-10.html#check-m10s1",
+            "written_response": "modules/module-10.html#check-m10s1"
+          }
+        },
+        {
+          "section_id": "10.2",
+          "title": "10.2 Evidence-based evaluation",
+          "content_descriptors": [
+            "Source-grounded textiles concept and its application to the Lunch Is Packed design project"
+          ],
+          "source_ids": [
+            "classroom-drive-sequence",
+            "nesa-technology-7-8-2023"
+          ],
+          "learning_intention": "Test the solution against criteria and use evidence to evaluate performance and propose improvement.",
+          "learning_sequence": [
+            "explicit theory",
+            "purposeful visual interpretation",
+            "one mapped click-to-play video",
+            "10 knowledge checks",
+            "guided written response"
+          ],
+          "working_scientifically": [
+            "observe",
+            "compare",
+            "apply evidence",
+            "evaluate where relevant"
+          ],
+          "evidence": [
+            "Guided response 10.2",
+            "Product test and evaluation lab"
+          ],
+          "formative_checks": [
+            "10 section questions",
+            "teacher observation and feedback"
+          ],
+          "adjustments": [
+            "visual and plain-language support",
+            "chunked autosaving task",
+            "alternative transcription where appropriate"
+          ],
+          "resources": [
+            "course photograph or diagram",
+            "module presentation",
+            "teacher-approved classroom resources"
+          ],
+          "site_destinations": {
+            "theory": "modules/module-10.html#section-2",
+            "knowledge_check": "modules/module-10.html#check-m10s2",
+            "written_response": "modules/module-10.html#check-m10s2"
+          }
+        },
+        {
+          "section_id": "10.3",
+          "title": "10.3 Specific improvement and reflection",
+          "content_descriptors": [
+            "Source-grounded textiles concept and its application to the Lunch Is Packed design project"
+          ],
+          "source_ids": [
+            "classroom-drive-sequence",
+            "nesa-technology-7-8-2023"
+          ],
+          "learning_intention": "Test the solution against criteria and use evidence to evaluate performance and propose improvement.",
+          "learning_sequence": [
+            "explicit theory",
+            "purposeful visual interpretation",
+            "10 knowledge checks",
+            "guided written response"
+          ],
+          "working_scientifically": [
+            "observe",
+            "compare",
+            "apply evidence",
+            "evaluate where relevant"
+          ],
+          "evidence": [
+            "Guided response 10.3",
+            "Product test and evaluation lab"
+          ],
+          "formative_checks": [
+            "10 section questions",
+            "teacher observation and feedback"
+          ],
+          "adjustments": [
+            "visual and plain-language support",
+            "chunked autosaving task",
+            "alternative transcription where appropriate"
+          ],
+          "resources": [
+            "course photograph or diagram",
+            "module presentation",
+            "teacher-approved classroom resources"
+          ],
+          "site_destinations": {
+            "theory": "modules/module-10.html#section-3",
+            "knowledge_check": "modules/module-10.html#check-m10s3",
+            "written_response": "modules/module-10.html#check-m10s3"
+          }
+        }
+      ]
+    }
+  ],
+  "teacher_to_confirm": [
+    "duration and lesson allocation",
+    "assessment status and submission",
+    "pattern and dimensions",
+    "materials and closure",
+    "machine model and settings",
+    "risk controls and supervision",
+    "student adjustments"
+  ],
+  "site_mapping": [
+    {
+      "route": "modules/module-01.html",
+      "anchor": "section-1",
+      "audience": "student",
+      "purpose": "theory, visual, knowledge checks and guided response, plus mapped video where present",
+      "module_id": 1,
+      "section_id": "1.1"
+    },
+    {
+      "route": "modules/module-01.html",
+      "anchor": "section-2",
+      "audience": "student",
+      "purpose": "theory, visual, knowledge checks and guided response, plus mapped video where present",
+      "module_id": 1,
+      "section_id": "1.2"
+    },
+    {
+      "route": "modules/module-01.html",
+      "anchor": "section-3",
+      "audience": "student",
+      "purpose": "theory, visual, knowledge checks and guided response, plus mapped video where present",
+      "module_id": 1,
+      "section_id": "1.3"
+    },
+    {
+      "route": "modules/module-02.html",
+      "anchor": "section-1",
+      "audience": "student",
+      "purpose": "theory, visual, knowledge checks and guided response, plus mapped video where present",
+      "module_id": 2,
+      "section_id": "2.1"
+    },
+    {
+      "route": "modules/module-02.html",
+      "anchor": "section-2",
+      "audience": "student",
+      "purpose": "theory, visual, knowledge checks and guided response, plus mapped video where present",
+      "module_id": 2,
+      "section_id": "2.2"
+    },
+    {
+      "route": "modules/module-02.html",
+      "anchor": "section-3",
+      "audience": "student",
+      "purpose": "theory, visual, knowledge checks and guided response, plus mapped video where present",
+      "module_id": 2,
+      "section_id": "2.3"
+    },
+    {
+      "route": "modules/module-03.html",
+      "anchor": "section-1",
+      "audience": "student",
+      "purpose": "theory, visual, knowledge checks and guided response, plus mapped video where present",
+      "module_id": 3,
+      "section_id": "3.1"
+    },
+    {
+      "route": "modules/module-03.html",
+      "anchor": "section-2",
+      "audience": "student",
+      "purpose": "theory, visual, knowledge checks and guided response, plus mapped video where present",
+      "module_id": 3,
+      "section_id": "3.2"
+    },
+    {
+      "route": "modules/module-03.html",
+      "anchor": "section-3",
+      "audience": "student",
+      "purpose": "theory, visual, knowledge checks and guided response, plus mapped video where present",
+      "module_id": 3,
+      "section_id": "3.3"
+    },
+    {
+      "route": "modules/module-04.html",
+      "anchor": "section-1",
+      "audience": "student",
+      "purpose": "theory, visual, knowledge checks and guided response, plus mapped video where present",
+      "module_id": 4,
+      "section_id": "4.1"
+    },
+    {
+      "route": "modules/module-04.html",
+      "anchor": "section-2",
+      "audience": "student",
+      "purpose": "theory, visual, knowledge checks and guided response, plus mapped video where present",
+      "module_id": 4,
+      "section_id": "4.2"
+    },
+    {
+      "route": "modules/module-04.html",
+      "anchor": "section-3",
+      "audience": "student",
+      "purpose": "theory, visual, knowledge checks and guided response, plus mapped video where present",
+      "module_id": 4,
+      "section_id": "4.3"
+    },
+    {
+      "route": "modules/module-05.html",
+      "anchor": "section-1",
+      "audience": "student",
+      "purpose": "theory, visual, knowledge checks and guided response, plus mapped video where present",
+      "module_id": 5,
+      "section_id": "5.1"
+    },
+    {
+      "route": "modules/module-05.html",
+      "anchor": "section-2",
+      "audience": "student",
+      "purpose": "theory, visual, knowledge checks and guided response, plus mapped video where present",
+      "module_id": 5,
+      "section_id": "5.2"
+    },
+    {
+      "route": "modules/module-05.html",
+      "anchor": "section-3",
+      "audience": "student",
+      "purpose": "theory, visual, knowledge checks and guided response, plus mapped video where present",
+      "module_id": 5,
+      "section_id": "5.3"
+    },
+    {
+      "route": "modules/module-06.html",
+      "anchor": "section-1",
+      "audience": "student",
+      "purpose": "theory, visual, knowledge checks and guided response, plus mapped video where present",
+      "module_id": 6,
+      "section_id": "6.1"
+    },
+    {
+      "route": "modules/module-06.html",
+      "anchor": "section-2",
+      "audience": "student",
+      "purpose": "theory, visual, knowledge checks and guided response, plus mapped video where present",
+      "module_id": 6,
+      "section_id": "6.2"
+    },
+    {
+      "route": "modules/module-06.html",
+      "anchor": "section-3",
+      "audience": "student",
+      "purpose": "theory, visual, knowledge checks and guided response, plus mapped video where present",
+      "module_id": 6,
+      "section_id": "6.3"
+    },
+    {
+      "route": "modules/module-07.html",
+      "anchor": "section-1",
+      "audience": "student",
+      "purpose": "theory, visual, knowledge checks and guided response, plus mapped video where present",
+      "module_id": 7,
+      "section_id": "7.1"
+    },
+    {
+      "route": "modules/module-07.html",
+      "anchor": "section-2",
+      "audience": "student",
+      "purpose": "theory, visual, knowledge checks and guided response, plus mapped video where present",
+      "module_id": 7,
+      "section_id": "7.2"
+    },
+    {
+      "route": "modules/module-07.html",
+      "anchor": "section-3",
+      "audience": "student",
+      "purpose": "theory, visual, knowledge checks and guided response, plus mapped video where present",
+      "module_id": 7,
+      "section_id": "7.3"
+    },
+    {
+      "route": "modules/module-08.html",
+      "anchor": "section-1",
+      "audience": "student",
+      "purpose": "theory, visual, knowledge checks and guided response, plus mapped video where present",
+      "module_id": 8,
+      "section_id": "8.1"
+    },
+    {
+      "route": "modules/module-08.html",
+      "anchor": "section-2",
+      "audience": "student",
+      "purpose": "theory, visual, knowledge checks and guided response, plus mapped video where present",
+      "module_id": 8,
+      "section_id": "8.2"
+    },
+    {
+      "route": "modules/module-08.html",
+      "anchor": "section-3",
+      "audience": "student",
+      "purpose": "theory, visual, knowledge checks and guided response, plus mapped video where present",
+      "module_id": 8,
+      "section_id": "8.3"
+    },
+    {
+      "route": "modules/module-09.html",
+      "anchor": "section-1",
+      "audience": "student",
+      "purpose": "theory, visual, knowledge checks and guided response, plus mapped video where present",
+      "module_id": 9,
+      "section_id": "9.1"
+    },
+    {
+      "route": "modules/module-09.html",
+      "anchor": "section-2",
+      "audience": "student",
+      "purpose": "theory, visual, knowledge checks and guided response, plus mapped video where present",
+      "module_id": 9,
+      "section_id": "9.2"
+    },
+    {
+      "route": "modules/module-09.html",
+      "anchor": "section-3",
+      "audience": "student",
+      "purpose": "theory, visual, knowledge checks and guided response, plus mapped video where present",
+      "module_id": 9,
+      "section_id": "9.3"
+    },
+    {
+      "route": "modules/module-10.html",
+      "anchor": "section-1",
+      "audience": "student",
+      "purpose": "theory, visual, knowledge checks and guided response, plus mapped video where present",
+      "module_id": 10,
+      "section_id": "10.1"
+    },
+    {
+      "route": "modules/module-10.html",
+      "anchor": "section-2",
+      "audience": "student",
+      "purpose": "theory, visual, knowledge checks and guided response, plus mapped video where present",
+      "module_id": 10,
+      "section_id": "10.2"
+    },
+    {
+      "route": "modules/module-10.html",
+      "anchor": "section-3",
+      "audience": "student",
+      "purpose": "theory, visual, knowledge checks and guided response, plus mapped video where present",
+      "module_id": 10,
+      "section_id": "10.3"
+    }
+  ],
+  "delivery_ledger": {
+    "planned": "Teacher to confirm",
+    "actual": "To be completed during delivery"
+  },
+  "files": [
+    "Lunch-Is-Packed-Teaching-Program-and-Scope-Sequence-v1.0.docx",
+    "Lunch-Is-Packed-Teaching-Program-and-Scope-Sequence-v1.0.pdf",
+    "Lunch-Is-Packed-Teaching-Program-Manifest-v1.0.json",
+    "Lunch-Is-Packed-Teaching-Program-Site-Map-v1.0.json"
+  ]
+}
