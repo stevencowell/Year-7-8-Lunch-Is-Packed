@@ -27,6 +27,23 @@
   width: calc(100% - 32px) !important;
 }
 
+.course-family-hero .course-family-hero-identity {
+  display: none !important;
+}
+
+.course-family-hero .course-family-hero-inner {
+  grid-template-columns: minmax(0, 1fr) !important;
+}
+
+/* Task 34: keep the shared intro, pathway and practical safety guidance only. */
+.course-family-intro + .soft,
+.save-note,
+.course-family-intro + .soft + .save-note + section,
+#modules ~ .tomato-band,
+#modules ~ .tomato-band ~ section {
+  display: none !important;
+}
+
 .course-family-hero .hero-copy {
   max-width: 680px !important;
   min-width: 0;
@@ -282,4 +299,13 @@
   .course-family-hero .actions {
     display: none !important;
   }
+}
+
+/* Task 34 final hero override: the hero photo is the visual; no decorative icon panel. */
+.course-family-hero .course-family-hero-identity {
+  display: none !important;
+}
+
+.course-family-hero .course-family-hero-inner {
+  grid-template-columns: minmax(0, 1fr) !important;
 }
