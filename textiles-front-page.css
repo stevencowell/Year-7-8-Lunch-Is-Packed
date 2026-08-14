@@ -64,3 +64,8 @@ html {
     grid-template-columns: minmax(0, 1fr) !important;
   }
 }
+
+/* Do not show internal teacher-confirmation strips on student front pages. */
+.course-family-intro__boundary {
+  display: none !important;
+}
