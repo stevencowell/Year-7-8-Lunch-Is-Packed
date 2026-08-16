@@ -2,6 +2,7 @@
   const moduleId = Number(document.body.dataset.module);
   const data = COURSE_MODULES.find(item => item.id === moduleId);
   if (!data) return;
+  document.body.classList.add('module-standard-page');
 
   const visuals = {
     1:[
@@ -66,7 +67,7 @@
 
   const figureHtml = item => `<figure class="teaching-visual"><a href="../assets/${item.src}" target="_blank" rel="noopener"><img src="../assets/${item.src}" alt="${item.alt}" loading="lazy"></a><figcaption>${item.caption} <a href="../assets/${item.src}" target="_blank" rel="noopener">Open larger</a></figcaption></figure>`;
   const videoHtml = (video, sectionNumber) => `<aside class="video-learning" aria-labelledby="video-title-${sectionNumber}"><div class="video-copy"><p class="eyebrow">Watch and notice</p><h3 id="video-title-${sectionNumber}">${video.title}</h3><p>${video.purpose}</p><p class="watch-for"><strong>Watch for:</strong> ${video.watchFor}</p><p class="fine">${video.channel} · YouTube</p></div><div><div class="video-frame" data-video-frame><button type="button" class="video-launch" data-video-load="${video.id}" aria-label="Play ${video.title}"><img src="https://i.ytimg.com/vi/${video.id}/hqdefault.jpg" alt="" loading="lazy"><span class="video-play" aria-hidden="true">▶</span><span class="video-launch-label">Play video</span></button></div><p class="video-fallback"><a href="https://www.youtube.com/watch?v=${video.id}" target="_blank" rel="noopener">Open in YouTube ↗</a></p></div></aside>`;
-  const presentationHtml = () => `<aside class="module-presentation" aria-labelledby="module-presentation-title"><div><p class="eyebrow">Module presentation</p><h2 id="module-presentation-title">Learn with the slides</h2><p>This teacher-style presentation explains the three sections in this module. You can use it independently to review the ideas, answer the checks and prepare your written responses.</p><p class="fine">PowerPoint file · 8 slides · includes teaching notes</p></div><a class="button tomato presentation-download" href="../resources/presentations/${presentationFiles[moduleId - 1]}?v=task29-1" download>Download Module ${moduleId} PowerPoint</a></aside>`;
+  const presentationHtml = () => `<aside class="module-presentation module-overview" aria-labelledby="module-presentation-title"><div><p class="eyebrow">Module presentation</p><h2 id="module-presentation-title">Preview, learn and save evidence</h2><p>This teacher-style presentation explains the three sections in this module. You can use it independently to review the ideas, answer the checks and prepare your written responses.</p><p class="fine">PowerPoint file · 8 slides · includes teaching notes</p></div><a class="button tomato presentation-download" href="../resources/presentations/${presentationFiles[moduleId - 1]}?v=task29-1" download>Download Module ${moduleId} PowerPoint</a></aside>`;
   const questionHtml = (item, qi, section) => {
     const saved = readJSON(`lunchpacked:check:${section.learningId}:${qi}`);
     return `<fieldset class="question" data-question="${qi}" data-review="${section.title}"><legend>${qi + 1}. ${item.q}</legend>${item.options.map((option, oi) => `<label class="option"><input type="radio" name="${section.learningId}-q${qi}" value="${oi}" ${saved.selected === oi ? 'checked' : ''}> <span>${option}</span></label>`).join('')}<button type="button" class="button secondary compact check-one" data-check-one>Check answer</button><p class="feedback ${saved.checked ? (saved.correct ? 'good' : 'try') : ''}" aria-live="polite">${saved.checked ? feedbackText(saved.correct, section.title) : ''}</p></fieldset>`;
@@ -76,7 +77,7 @@
     return `<section class="section-evidence" aria-labelledby="evidence-${section.learningId}"><p class="eyebrow">Written evidence ${moduleId}.${index + 1}</p><h3 id="evidence-${section.learningId}">${w.label}</h3><button type="button" class="button secondary response-help-toggle" data-response-help aria-expanded="false" aria-controls="guide-${w.id}">What is this asking?</button><div class="response-guide" id="guide-${w.id}" hidden><p><strong>In plain language:</strong> ${w.clarify}</p><ol>${w.steps.map(step => `<li>${step}</li>`).join('')}</ol><p><strong>Sentence starter:</strong> ${w.starter}</p><p><a href="#section-${index + 1}">Return to the precise relevant theory section: ${section.title}</a></p><details><summary>Appropriate response example</summary><p>${w.example}</p></details></div><label class="sr-only" for="${w.id}">${w.label}</label><textarea id="${w.id}" data-save-key="lunchpacked:${w.id}" placeholder="Write your response here…"></textarea><p class="save-status" id="status-${w.id}" aria-live="polite"></p></section>`;
   };
 
-  document.querySelector('[data-theory]').innerHTML = presentationHtml() + data.sections.map((section, i) => {
+  document.querySelector('[data-theory]').innerHTML = data.sections.map((section, i) => {
     const figures = (visuals[moduleId] || []).filter(v => v.after === i).map(figureHtml).join('');
     const video = moduleVideoSection[moduleId] === i + 1 ? COURSE_VIDEOS[`${moduleId}.${i + 1}`] : null;
     return `<section class="theory-block" id="section-${i + 1}"><h2>${section.title}</h2>${section.html}</section>${figures}${video ? videoHtml(video, `${moduleId}-${i + 1}`) : ''}<details class="section-learning" id="check-${section.learningId}"><summary><span>Learning activity ${moduleId}.${i + 1}</span><strong>10 questions + written response</strong></summary><div class="section-learning-body"><p>Answer all ten questions. Feedback returns you to this precise theory section when you need another look.</p><div data-section-check="${section.learningId}">${section.questions.map((item, qi) => questionHtml(item, qi, section)).join('')}</div>${evidenceHtml(section, i)}</div></details>`;
@@ -87,8 +88,14 @@
   if (oldCheck) oldCheck.remove();
   if (oldEvidence) oldEvidence.remove();
 
+  const layout = document.querySelector('.module-layout');
+  const moduleMain = document.querySelector('.module-main');
   const aside = document.querySelector('.module-aside');
-  aside.insertAdjacentHTML('beforeend', `<hr><h3>Project activity</h3><p>${activityLabels[moduleId - 1]}</p><a class="button secondary compact" href="../activities.html#activity-${moduleId}">Open activity</a><button class="button secondary compact" type="button" data-print-module>Print / Save PDF</button>`);
+  aside.classList.add('student-evidence');
+  aside.innerHTML = `<div><p class="eyebrow">Student evidence</p><h2>Your progress</h2><div class="progress-shell" aria-hidden="true"><div class="progress-bar" data-progress></div></div><p class="fine" data-progress-text></p><a href="../folio.html">Open My folio →</a></div><div><h3>Project activity</h3><p>${activityLabels[moduleId - 1]}</p><a class="button secondary compact" href="../activities.html#activity-${moduleId}">Open activity</a><button class="button secondary compact" type="button" data-print-module>Print / Save PDF</button></div>`;
+  moduleMain.insertAdjacentHTML('beforebegin', presentationHtml());
+  layout.insertBefore(aside, moduleMain);
+  document.querySelector('.module-main > .actions').classList.add('completion-panel', 'card');
   aside.querySelector('[data-print-module]').addEventListener('click', () => window.print());
 
   document.querySelectorAll('[data-check-one]').forEach(button => {
